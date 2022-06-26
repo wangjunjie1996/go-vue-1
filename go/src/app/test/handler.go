@@ -9,6 +9,7 @@ import (
 func test1Handler(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"message": "test1 Gin",
+		"344":     "2333",
 	})
 }
 
